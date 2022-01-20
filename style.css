@@ -78,15 +78,15 @@ width: 100%;
 
 div.gallery {
   margin: auto;
-  border: 1px solid black;
+  border: 10px solid black;
   float: left;
-  width: 180px;
+  width: 100%;
 
 
 }
 
 div.gallery:hover {
-  border: 1px solid gold;
+  border: 20px solid gold;
 }
 
 div.gallery img {
@@ -193,5 +193,11 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   background-color: gold;
-  padding: 20px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 80px;
+  text-shadow: 1px 1px gold;
+  font-family: "Times New Roman", Times, serif;
 }
